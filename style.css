@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.fon {
+    height: 100vh;
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    background-size: cover;
+}
+
+
+.nav-link {
+    color: #fff !important;
+}
+
+/*.img{
+    width: 300px;
+    height: 300px;
+    background: url('img_4.png');
+    background-size: 100%;
+    background-position: center;
+    transition: all 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.img:hover {
+    background-size: 130%;
+}*/
+
+.yellow {
+    color: #f5f582 !important;
+}
+
+.white {
+    color: #fFF !important;
+}
+
+.UC {
+    text-transform: uppercase;
+}
+
+.navbar-brand {  
+    word-wrap: break-word;
+}
+
+.left {
+    width: 50px;
+    padding: 0; 
+    margin: 0;
+    font-weight: 600;
+    line-height: 1em;
+    text-align: justify;
+    
+}
+
+span.big {
+    font-size: 34px;
+    letter-spacing: inherit;
+}
+
+.left span {
+    letter-spacing: 0.5px;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.active{
+    font-weight: 600;
+}
+
+.phone {
+    font-size: 8.0px;
+    line-height: 0em;
+}
+.phone span{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #57a772;
+}
+
+
+
+.centre {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+
+}
+
+.logo {
+    /*padding: 25vh 0;*/
+    flex-direction: column;
+    line-height: 1em;
+}
+
+.title {
+    font-size: 16px;
+    
+}
+
+.big_title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px){
+    .logo {
+        margin-top: 20px;
+    }
+}
+
+
+.main {
+    margin-top: 30px;
+}
+.tema {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.image {
+    /*border: 1px solid #d8d4d4;*/
+    box-shadow: inset 1px 1px 1px 2px #ccc;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image img{
+    width: 80%;    
+}
+
+.number {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
